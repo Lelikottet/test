@@ -1,0 +1,348 @@
+body {
+    color: #eeeeee;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    padding-left: 180px;
+    padding-bottom: 190px;
+}
+
+.background {
+    background-image: url(../images/photo_2020-10-15_19-24-34.jpg);
+    width: 1400px;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.background h1:after {
+    display: block;
+    content: "Awsome One Page HTML Templates";
+    font-size: 18px;
+}
+
+.slogo {
+    font-size: 45px;
+    padding: 30px 40px;
+    border: 1px solid #eeeeee;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    height: 50px;
+}
+
+.slogo span {
+    margin-right: 3%;
+}
+
+
+/*!--SECTION 2--*/
+
+#about-us {
+    width: 1400px;
+    text-align: center;
+    color: black;
+}
+
+.block1 {
+    text-align: center;
+    color: black;
+}
+
+.line {
+    border-bottom: 10px solid coral;
+    content: '';
+    transform: scale(0.09);
+    height: 3px;
+    margin-bottom: 30px;
+}
+
+.imga {
+    display: flex;
+    justify-content: center;
+    margin-left: 33.3%;
+    width: 33.3%;
+    height: 200px;
+    background-image: url(../images/logot.png);
+    font-size: 120px;
+    text-overflow: clip;
+}
+
+.border {
+    background-size: cover;
+    border-bottom: 2px solid coral;
+    transform: scale(0.8);
+    margin-bottom: 50px;
+    width: 1400px;
+}
+
+.tabl {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 1400px;
+}
+
+.card1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    width: 450px;
+}
+
+
+/*!--SECTION 3--*/
+
+#business {
+    width: 1400px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.pozithion {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.foto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.img {
+    position: relative;
+    width: 46%;
+    margin: 2%;
+}
+
+.img button {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.img img {
+    width: 100%;
+}
+
+.text {
+    color: #505050;
+    width: 50%;
+}
+
+.orange {
+    color: #F1AD1D;
+}
+
+.text button {
+    width: 35%;
+    height: 17%;
+    background-color: #F1AD1D;
+    color: #ffffff;
+    border: none;
+}
+
+
+/*!--SECTION 4--*/
+
+.clock {
+    background-image: url(../images/Layer2.png);
+    width: 1400px;
+    height: 100vh;
+    position: absolute;
+    bottom: -1520px;
+    left: 7px;
+    z-index: 0;
+}
+
+.blo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.ideas p {
+    font-size: 25px;
+    padding-top: 390px;
+    display: flex;
+    justify-content: center;
+}
+
+.ideas p span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*!--SECTION 5--*/
+
+#foto1 {
+    width: 1400px;
+    height: 100vh;
+    background-color: #ffffff;
+    margin-top: 450px;
+    color: #333333;
+}
+
+#foto1 .block1 {
+    padding: 60px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 15%;
+    padding-left: 35px;
+}
+
+.imgb {
+    display: flex;
+    position: relative;
+    width: 194px;
+    height: 150px;
+    background-image: url(../images/Layer\ 27@1X.png);
+    margin: 2px;
+}
+
+.imgb button {
+    width: 75%;
+    height: 20%;
+    border: none;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.imgb:nth-child(2) {
+    background-image: url(../images/Layer\ 24@1X.png);
+}
+
+.imgb:nth-child(3) {
+    background-image: url(../images/Layer\ 29@1X.png);
+}
+
+.imgb:nth-child(4) {
+    background-image: url(../images/Layer\ 30@1X.png);
+}
+
+.imgb:nth-child(5) {
+    background-image: url(../images/Layer\ 31@1X.png);
+}
+
+.imgb:nth-child(6) {
+    background-image: url(../images/Layer\ 32@1X.png);
+}
+
+.imgb:nth-child(7) {
+    background-image: url(../images/Layer\ 33@1X.png);
+}
+
+.imgb:nth-child(8) {
+    background-image: url(../images/Layer\ 34@1X.png);
+}
+
+.imgb:nth-child(9) {
+    background-image: url(../images/Layer\ 35@1X.png);
+}
+
+.imgb:nth-child(10) {
+    background-image: url(../images/Layer\ 36@1X.png);
+}
+
+.imgb:nth-child(11) {
+    background-image: url(../images/Layer\ 37@1X.png);
+}
+
+.imgb:nth-child(12) {
+    background-image: url(../images/Layer\ 38@1X.png);
+}
+
+.gallery-info {
+    padding: 5%;
+}
+
+
+/*!--SECTION 6--*/
+
+#sect6 {
+    width: 1400px;
+    background-color: #ffffff;
+    color: #333333;
+    margin-top: 300px;
+}
+
+.tabl2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+.butt button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.linea {
+    background-size: cover;
+    border-bottom: 4px solid coral;
+    transform: scale(0.25);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paid {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.design p {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.lineb {
+    background-size: cover;
+    border-bottom: 3px solid black;
+    transform: scale(0.85);
+    margin-top: 20px;
+}
+
+
+/*!--SECTION 6--*/
+
+#sect7 {
+    background-image: url(../images/photo_2020-10-15_19-24-34.jpg);
+    width: 1400px;
+    height: 100vh;
+    background-size: cover;
+}
+
+.textb {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 200px;
+    padding-bottom: 15px;
+}
